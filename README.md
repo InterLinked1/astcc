@@ -5,11 +5,9 @@ Asterisk coin controller AMI interface
 
 # Compiling
 
-You will need to statically compile this program with C-AMI, which you can find at https://github.com/InterLinked1/cami
+You will need to dynamically link this program with C-AMI, which you can find at https://github.com/InterLinked1/cami
 
-You will need `cami.c` and the `include` directory from the CAMI repository (but not `simpleami.c`)
-
-Then you can compile using `make`.
+Once libcami has been installed, you can compile using `make`.
 
 # Operation
 

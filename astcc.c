@@ -30,22 +30,8 @@
  * coin lines between Asterisk and a physical coin controller.
  *
  * Compilation Instructions:
- * This program needs to be statically compiled with CAMI.
- * The latest source for CAMI can be downloaded from: https://github.com/InterLinked1/cami
- * The following files are required (with this folder hierarchy):
- * - cami.c
- * - include/cami.h
- * - include/cami_actions.h
- * (simpleami.c and Makefile from CAMI are not needed)
- *
- * Your folder hierarchy should this look like this:
- * - include/cami.h (from CAMI)
- * - include/cami_actions.h (from CAMI)
- * - cami.c (from CAMI)
- * - astcc.c (from AstCC)
- * - Makefile (from AstCC)
- *
- * To compile, simply run "make".
+ * This program needs to be dynamically linked with CAMI.
+ * CAMI can be downloaded from: https://github.com/InterLinked1/cami
  *
  * You will need to run the program under a user with permissions to access the serial port
  * or any other resources to which you may need access.
